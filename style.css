@@ -1,0 +1,90 @@
+body{
+    margin: 10px;
+}
+
+h1{
+    background-color: black;
+    color: wheat;
+    border-radius: 15px;
+    font-size: 50px;
+}
+
+#ud{
+    background-color:black;
+    border-radius: 15px;
+    margin-top: -15px
+
+}
+#propic{
+    height: 55%;
+    width: 35%;
+    justify-content: center;
+    padding-left: 5%;
+}
+#abome{
+    height: 55%;
+    width: 55%;
+    float: right;
+    background-color:black;
+    margin-right: 5%;
+  color: lightcoral;
+    background-repeat: no-repeat;
+    
+}
+#abome ul li{
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#text{
+    font-size: 30px;
+    background-color:aquamarine;
+    color:chocolate;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+#skills{
+    text-align: center;
+    font-size: 35px;
+    background-color:aquamarine;
+    color: whitesmoke;
+    height: 10%;
+}
+
+.skim{
+    width: 22%;
+    height: 35%;
+}
+
+#skim{
+    background-color:aquamarine;
+    border-radius: 15px;
+}
+
+#form{
+    background-color:black;
+    width: 50%;
+    height: 350;
+    float: right;
+}
+
+a img{
+    width: 35px;
+    height: 35px;
+}
+
+footer{
+    background-color:aquamarine;
+    border-radius: 15px;
+    color: black;
+
+}
+
+footer p{
+    font-size: 25px;
+
+}
