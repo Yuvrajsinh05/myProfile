@@ -1,90 +1,118 @@
-body{
-    margin: 10px;
+*{
+    margin: 0%;
 }
-
-h1{
-    background-color: black;
-    color: wheat;
-    border-radius: 15px;
-    font-size: 50px;
-}
-
-#ud{
-    background-color:black;
-    border-radius: 15px;
-    margin-top: -15px
-
-}
-#propic{
-    height: 55%;
-    width: 35%;
-    justify-content: center;
-    padding-left: 5%;
-}
-#abome{
-    height: 55%;
-    width: 55%;
-    float: right;
-    background-color:black;
-    margin-right: 5%;
-  color: lightcoral;
-    background-repeat: no-repeat;
+/* ------aside------- */
+aside{
+    width: 15%;
+    height: 100vh;
+    background-color: blue;
+    float: left;
+    position: fixed;
     
 }
-#abome ul li{
-    text-align: center;
-    justify-content: center;
+ul li{
     list-style: none;
-    font-size: 30px;
-    padding: 10px;
+    line-height: 60px;   
 }
 
-#text{
-    font-size: 30px;
-    background-color:aquamarine;
-    color:chocolate;
-    border-radius: 15px;
-    padding: 7px;
+ul li a{
+    color: white;
+   text-decoration: none;
 }
 
-#skills{
-    text-align: center;
-    font-size: 35px;
-    background-color:aquamarine;
-    color: whitesmoke;
-    height: 10%;
-}
-
-.skim{
-    width: 22%;
-    height: 35%;
-}
-
-#skim{
-    background-color:aquamarine;
-    border-radius: 15px;
-}
-
-#form{
-    background-color:black;
-    width: 50%;
-    height: 350;
-    float: right;
-}
-
-a img{
-    width: 35px;
-    height: 35px;
-}
-
-footer{
-    background-color:aquamarine;
-    border-radius: 15px;
+a:hover{
+    background-color: rgb(197, 85, 197);
     color: black;
+    border-radius: 10px;
+    font-size: 30px;
+    
+}
+#map{
+    /* float: left; */
+    margin-top: 250px;
+    
+}
+#copy{
+    font-size: 15px;
+    padding-bottom: 0%;
+    color:whitesmoke;
+}
+
+/* -------ABOUT ME------- */
+
+.container{
+    height: 620px;
+    width: 85%;
+    /* border: 2px solid red; */
+    float: right;
 
 }
 
-footer p{
-    font-size: 25px;
+.propic{
+    height: 350px;
+    width: 350px;
+    /* border: 2px solid purple; */
+    float: right;
+    border-radius: 150%;
+    background-image: url(./images/me.jpg);
+    background-position: center;
+    margin-right: 100px;
+    margin-top: 100px;
+}
 
+.about{
+    margin-top: 100px ;
+    /* border: 2px solid gray; */
+    width: 50%;
+    float: right;
+    /* font-family: 'Ubuntu', sans-serif; */
+    
+}
+.about>p{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+/* ----------projects------ */
+
+#projects {
+    /* border: 2px solid yellow;     */
+    float: right;
+   width: 85%;
+    height: 650px;
+}
+
+.procard{
+    border:wheat;
+    float: left;
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.proc2{
+    background-color:#b37227;
+}
+.proc1{
+    background-color: #ff6347;
+}
+
+#projects img{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+/* ------skills-------- */
+#skills{
+    width: 85%;
+    height: 400px;
+    float: right;
+    border: 2px solid purple;
+}
+.skills{
+    width: 100px;
+    height: 100px;
+    border: 2px solid goldenrod;
+    float: left;
 }
