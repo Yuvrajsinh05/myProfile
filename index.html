@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylep.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Comforter&family=Dancing+Script&family=Playfair+Display:ital,wght@1,600&family=Ubuntu:ital,wght@1,300&family=Varela+Round&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 
@@ -41,32 +43,69 @@
             <h2>Thank you</h2>
         </div>
     </div>
+
+    <!-- project-------------------------------------------------------------- -->
+
     <div id="projects" style="background-color: darkkhaki;">
-        
-    <center>
+
+        <center>
             <br><br><br>
             <h1>Projects I'm Working.....(None of this has not been completed)</h1>
         </center>
-        <div class="procard proc1">
-            <img src="./images/zomato.png" alt="">
-            <div style="text-align: center;">
-                <h1>zomato</h1>
-                <p>I've made this project with HTML + CSS.</p>
-                <p>Currently Working on it</p>
+        <a href="./zomato/zomato.html">
+            <div class="procard proc1">
+                <img src="./images/zomato.png" alt="">
+                <div style="text-align: center;color: white;">
+                    <h1>zomato</h1>
+                    <p>I've made this project with HTML + CSS.</p>
+                    <p>Currently Working on it</p>
+                </div>
             </div>
-        </div>
-        <div class="procard proc2"><img src="./images/ama.png" alt="">
-            <div style="text-align: center;">
-                <h1>Amazon</h1>
-                <p>Currently Working on it</p>
+        </a>
+
+        <a href="./Amazon/index.html">
+            <div class="procard proc2">
+                <img src="./images/ama.png" alt="">
+                <div style="text-align: center;color: white;">
+
+                    <h1>Amazon</h1>
+                    <p>Currently Working on it</p>
+                </div>
             </div>
-        </div>
-</div>
- <div id="skills">
-     <div class="skills"><i class="fa-brands fa-html5"></i></div>
-     <div class="skills"></div>
-     <div class="skills"></div>
- </div>
+        </a>
+    </div>
+
+    <!-- -----------------------------skills---------------------------- -->
+
+    <div id="skills">
+        <center>
+            <br><br><br>
+        <h1>Skills</h1></center>
+        <div class="skills"><i class="fa-brands fa-html5"></i><h2>HTML5</h2></div>
+        <div class="skills"><i class="fa-brands fa-css3-alt"></i><h2>CSS3</h2></div>
+        <div class="skills"><i class="fa-brands fa-bootstrap"></i><h2>Bootsrtap</h2></div>
+        <div class="skills"><i class="fa-brands fa-python"></i><h2>Python</h2></div>
+    </div>
+
+   <!-- ------------------- Contact me ------------------- -->
+   <div id="Contact">
+       <form action="">
+           <ul class="contact">
+               <li>Name : <input type="text"></li>
+               <li>Gender: 
+                   male <input type="radio" name="Gender" id="male">
+                   female <input type="radio" name="Gender" id="female">
+               </li>
+               <li>Ph.no : <input type="number"></li>
+               <li>Email : <input type="email" name="" id=""></li>
+               <li>Tell About you How Can i Help You : <br><textarea name="" id="" cols="30" rows="5"></textarea></li>
+               <li> <input type="button" value="Submit"></li>
+           </ul>
+       </form>
+   </div>
+   <footer>
+       
+   </footer>
 </body>
 
 </html>

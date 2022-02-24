@@ -20,13 +20,12 @@ ul li a{
    text-decoration: none;
 }
 
-a:hover{
+/* a:hover{
     background-color: rgb(197, 85, 197);
     color: black;
     border-radius: 10px;
-    font-size: 30px;
     
-}
+} */
 #map{
     /* float: left; */
     margin-top: 250px;
@@ -103,16 +102,65 @@ a:hover{
     width: 200px;
     border-radius: 15px;
 }
+#project>a:hover{
+    
+
+}
 /* ------skills-------- */
 #skills{
     width: 85%;
     height: 400px;
     float: right;
     border: 2px solid purple;
+
 }
 .skills{
+    margin-left:15px;
+    margin-top: 80px;
     width: 100px;
-    height: 100px;
+    height: 150px;
     border: 2px solid goldenrod;
     float: left;
+    font-size: 80px;
+    text-align: center;
+}
+.skills>h2{
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+
+/* ------------Contact------------ */
+
+#Contact{
+    float: right;
+    width: 85%;
+    height: 550px;
+    background-color: #d5c6d2;
+    
+}
+.contact{
+    background-color: cadetblue;
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+.contact li{
+        margin-left: 60px;
+}
+.contact li input {
+    border-radius: 5px;
+    border: none;
+}
+
+/* --------footer------- */
+footer{
+    float: right;
+    width: 85%;
+    height: 150px;
+    background-color: black;
 }

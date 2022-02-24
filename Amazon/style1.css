@@ -1,0 +1,19 @@
+h1{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 70px;
+}
+#aside{
+    display: none;
+    float: left;
+    height: 100%;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+h1:hover{
+    #aside{
+        
+    }
+}
