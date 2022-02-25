@@ -161,6 +161,16 @@ ul li a{
 footer{
     float: right;
     width: 85%;
-    height: 150px;
+    height: 90px;
     background-color: black;
+    color: blue ;
+    text-align: center;
+    padding-top: 50px;
+}
+footer a span{
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    /* background-color:/; */
+    font-size: 30px;
 }
