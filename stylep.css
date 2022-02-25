@@ -12,14 +12,20 @@ aside{
 }
 ul li{
     list-style: none;
-    line-height: 60px;   
+    line-height: 60px;
 }
 
 ul li a{
     color: white;
    text-decoration: none;
 }
-
+aside ul li a:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
 /* a:hover{
     background-color: rgb(197, 85, 197);
     color: black;
@@ -96,7 +102,10 @@ ul li a{
 .proc1{
     background-color: #ff6347;
 }
-
+.procard:hover{
+    background-color: black;
+    box-shadow: 2px 2px 2px 2px ;
+}
 #projects img{
     height: 200px;
     width: 200px;
@@ -147,7 +156,11 @@ ul li a{
     border: 2px solid black;
     border-radius: 10px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
+}
+.contact:hover{
+    
+    box-shadow: 2px 5px 14px 4px;
 }
 .contact li{
         margin-left: 60px;
